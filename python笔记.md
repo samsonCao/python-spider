@@ -239,3 +239,9 @@ print(dir(cmath))
 - 高阶函数
 - 参数设置，注意不定长度参数 *args
 
+
+## python依赖包安装方式
+```python
+pip3 install pipenv // 生成Python3的虚拟环境
+pipenv --three //创建pipfile,类似一个package.json文件
+```
