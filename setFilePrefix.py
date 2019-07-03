@@ -1,4 +1,4 @@
-#这是一个修改所有js文件名为tsx文件名的方法，
+# 这是一个修改所有js文件名为tsx文件名的方法，
 # 升级js项目为TS项目时遇到的一个需求
 
 import os
@@ -24,6 +24,7 @@ def allfile(basepath):
                 os.rename(path, newname)
         else:
             allfile(path)  # 如果仍是是目录，递归调用当前函数
+
 
 # 获取当前路径
 path = os.getcwd()
